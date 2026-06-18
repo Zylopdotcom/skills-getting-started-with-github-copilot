@@ -98,6 +98,16 @@ section h3 {
   padding-right: 6px;
 }
 
+/* Backwards-compatible selector for tests: .participants */
+.participants {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-height: 120px;
+  overflow-y: auto;
+  padding-right: 6px;
+}
+
 .participant-item {
   display: flex;
   align-items: center;

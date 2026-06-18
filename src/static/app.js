@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
           ? `
             <div class="participants-section">
               <strong>Participants:</strong>
-              <ul class="participants-list">
+              <ul class="participants">
                 ${participants
                   .map(
                     (p) =>
